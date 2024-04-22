@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "RN-Project",
-    "slug": "RN-Project",
+    "name": "Aora",
+    "slug": "aora",
+    "scheme": "aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.ayman.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,8 +25,12 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "package": "com.ayman.aora",
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
